@@ -40,11 +40,11 @@ export default function Register() {
         <title>Login</title>
         <meta name="description" content="User registration page" />
       </Head>
-      <div className="min-h-screen flex items-center justify-center bg-indigo-900">
+      <div className="min-h-screen flex items-center justify-center bg-blue-600">
         <div className="bg-white p-8 rounded-lg shadow-lg w-96">
         <div className="flex items-center justify-center mb-6">
             <Image src="/Logo_djp.png" alt="DJP Logo" width={50} height={50} className="mr-3" />
-            <h2 className="text-2xl font-semibold text-center text-yellow-400">Login</h2>
+            <h2 className="text-2xl font-semibold text-center text-grey-700">Login</h2>
           </div>
           <form onSubmit={handleSubmit}>
             {['Email', 'Password'].map((field, index) => (
